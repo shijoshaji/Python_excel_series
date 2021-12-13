@@ -18,7 +18,7 @@ print("-"*30 + "DATA with Specified Row" + "-"*30)
 print(df_csv.at[3, 'fruit'])  # NOTE: passed row & column value to be printed
 print("-"*30 + "DATA with Specified Range" + "-"*30)
 # NOTE: passed range of value to be printed with all columns
-print(df_csv.loc[0:2])
+print(df_csv.loc[:2])
 print("-"*30)
 # NOTE: passed range of value to be printed with range of columns
 print(df_csv.loc[0:2, 'fruit':'Price'])
